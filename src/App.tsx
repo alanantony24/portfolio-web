@@ -1,11 +1,15 @@
 import React from 'react';
+import Navbar from "./components/Navbar";
+import MainPage from "./components/MainPage";
+import Footer from "./components/Footer";
 
-function App() {
-  return (
+
+const App = () => (
     <div>
-      <h1>Welcome to the portfolio app!</h1>
+        <Navbar />
+        <MainPage />
+        <Footer />
     </div>
-  );
-}
+);
 
 export default App;
